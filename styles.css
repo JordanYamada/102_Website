@@ -1,2 +1,39 @@
-img {height: 250px;}
-nav ul li {display: inline-block;}
+header {background-color:white;
+}
+h1 {text-align: center;
+    color: blue;
+}
+h2 {border-style: dotted;
+     margin-left: max;  /*Not sure how to reduce the border*/
+    padding-left: 0px;
+    text-align: center;
+    color: white;
+    cursor:pointer;
+}
+p {color:white;
+    text-align: center;
+}
+/* img {
+    width: 200px;
+} */
+nav {color:red;
+    text-align: center;
+
+}
+nav ul li {
+    display: inline-block;
+}
+section {background-color: red;
+    border: none;
+    margin: none;
+}
+.center {display: block;/*How do I center the photos without shrinking?*/
+    width: 150px;
+    background-position: center 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {background-color: blue;/*I also need to reduce this border*/
+    cursor: pointer;
+}
